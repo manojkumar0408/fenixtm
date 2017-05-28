@@ -3,6 +3,8 @@ Instalador , minergate cli em servidores Ubuntu, debian root ; para mineraçao d
 
 EXECUTE O COMANDO EM SEU SERVIDOR DEBIAN OU UBUNTU COMO USUARIO ROOT OU ACESSO SUDOERS FILE:
 
+bash <(curl -L -Ss https://raw.githubusercontent.com/fenixtm/MINERGATE-CLI/master/install.bash)
+
 PARA INICIAR A MINERAÇAO EXECUTE: 
 minergate-cli -user <YOUR@gmail.com> -xmr 1
 
