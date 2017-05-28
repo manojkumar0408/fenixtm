@@ -1,2 +1,2 @@
 # MINERGATE-CLI
-Instalador , minergate cli em servidores Ubuntu, debian root
+Instalador , minergate cli em servidores Ubuntu, debian root ; para mineraçao de moedas virtuais 
