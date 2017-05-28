@@ -21,7 +21,7 @@ execute o comando :
 
 * minergate-cli -user <YOUR@gmail.com> -xmr 1 
 
-apos saida do terminal retome a tela de mineraçao com : 
+após saida do terminal retome a tela de mineraçao com : 
 
 * screen -x miner
 
