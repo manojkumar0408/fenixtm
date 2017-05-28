@@ -14,5 +14,5 @@ minergate-cli -user <YOUR@gmail.com> -xmr 1
 
 minergate-cli -user miner@gmail.com -xmr 8
 -----------------------------------------------
-
+<span style=“color:green;”> text goes here</span>
 <font color="red"><h4> <h3> *Desinstalar:*</h3> &#x1F53B; sudo dpkg -r minergate-cli &#x1F53B;   </h4></font>
