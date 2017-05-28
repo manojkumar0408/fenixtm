@@ -3,7 +3,7 @@ Instalador , minergate cli em servidores Ubuntu, debian root ; para mineraçao d
 
 EXECUTE O COMANDO EM SEU SERVIDOR DEBIAN OU UBUNTU COMO USUARIO ROOT OU ACESSO SUDOERS FILE:
 
-PARA INICIAR A MINERAÇAO EXECUTE 
+PARA INICIAR A MINERAÇAO EXECUTE: 
 minergate-cli -user <YOUR@gmail.com> -xmr 1
 
 (ex: 8 cores para minerar MONERO) USE O COMANDO:
