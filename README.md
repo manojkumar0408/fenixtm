@@ -10,7 +10,7 @@ bash <(curl -L -Ss https://raw.githubusercontent.com/fenixtm/MINERGATE-CLI/maste
 PARA INICIAR A MINERAÇAO EXECUTE: 
 minergate-cli -user <YOUR@gmail.com> -xmr 1
 
-(ex: 8 cores para minerar MONERO) USE O COMANDO:
+(exemplo: 8 cores para minerar MONERO) USE O COMANDO:
 
 minergate-cli -user miner@gmail.com -xmr 8
 -----------------------------------------------
