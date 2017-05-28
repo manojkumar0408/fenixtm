@@ -16,8 +16,12 @@ minergate-cli -user miner@gmail.com -xmr 8
 -----------------------------------------------
 <h4>  RODANDO EM SEGUNDO PLANO </h4>
 execute o comando : 
+
 * screen -S miner 
+
 * minergate-cli -user <YOUR@gmail.com> -xmr 1 
+
 * retome a tela de mineraçao com : screen -x miner
+
 -----------------------------------------------
 <font color="red"><h4> <h3> *Desinstalar:*</h3> &#x1F53B; sudo dpkg -r minergate-cli &#x1F53B;   </h4></font>
