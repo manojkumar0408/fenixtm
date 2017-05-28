@@ -15,4 +15,4 @@ minergate-cli -user <YOUR@gmail.com> -xmr 1
 minergate-cli -user miner@gmail.com -xmr 8
 -----------------------------------------------
 
-<font color="green"> Some green text </font>
+<font color="green"> sudo dpkg -r minergate-cli  </font>
