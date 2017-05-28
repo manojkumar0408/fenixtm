@@ -1,4 +1,5 @@
 # MINERGATE-CLI
+crie uma conta minergate em: https://minergate.com/
 Instalador , minergate cli em servidores Ubuntu, debian root ; para mineraçao de moedas virtuais 
 
 EXECUTE O COMANDO EM SEU SERVIDOR DEBIAN OU UBUNTU COMO USUARIO ROOT OU ACESSO SUDOERS FILE:
