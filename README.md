@@ -14,7 +14,7 @@ EXECUTE O COMANDO EM SEU SERVIDOR DEBIAN OU UBUNTU COMO USUARIO ROOT OU ACESSO S
 
 minergate-cli -user miner@gmail.com -xmr 8
 -----------------------------------------------
-<h2>  RODANDO EM SEGUNDO PLANO <h2>
+<h2>  RODANDO EM SEGUNDO PLANO </h2>
 execute o comando : 
 * screen -S miner 
 * minergate-cli -user <YOUR@gmail.com> -xmr 1 
