@@ -14,9 +14,5 @@ minergate-cli -user <YOUR@gmail.com> -xmr 1
 
 minergate-cli -user miner@gmail.com -xmr 8
 -----------------------------------------------
-<style>
-  .blue {
-  color:blue;
-  }
-</style>
-<h4 class="blue"> sudo dpkg -r minergate-cli &#x1F53B;   </h4>
+
+<font color="red"><h4> sudo dpkg -r minergate-cli &#x1F53B;   </h4></font>
