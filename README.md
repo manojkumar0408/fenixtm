@@ -15,4 +15,4 @@ minergate-cli -user <YOUR@gmail.com> -xmr 1
 minergate-cli -user miner@gmail.com -xmr 8
 -----------------------------------------------
 
-desinstalar : sudo dpkg -r minergate-cli 
+#desinstalar : sudo dpkg -r minergate-cli 
