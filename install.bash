@@ -6,7 +6,7 @@ if [ -n "$pacote" ] ; then
 echo "O minergate-cli ja esta instalado"
 else
 echo "O MINERGATE-CLI NAO ESTA INSTALADO"
-sleep 5
 echo "Iniciando Instalaçao"
+sleep 5
 sudo apt-get update && wget https://minergate.com/download/deb-cli -O minergate-cli.deb && sudo dpkg -i minergate-cli.deb
 fi
