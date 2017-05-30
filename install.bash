@@ -12,14 +12,14 @@ echo " \033[01;34m 2: Ultilize o Comando  \033[01;31;40m minergate-cli -user eu@
        echo "\033[01;31m -  o valor numero ao final do codigo representa o numero de cores que voce deseja minerar\033[00;0m \n"
 echo "\033[01;34m  3: A moedas que podem ser mineradas  : \n"
 echo "
-\033[01;35m Monero:     \033[01;37;43m-XMR \033[00;0m \n
-\033[01;35mBytecoin:    \033[01;37;43m-BCN \033[00;0m \n
-\033[01;35mQuazarCoin:  \033[01;37;43m-QCN \033[00;0m \n
-\033[01;35mDigitalNote: \033[01;37;43m-XDN \033[00;0m \n
-\033[01;35mFantomcoin:  \033[01;37;43m-FCN \033[00;0m \n
-\033[01;35mMonetaVerde: \033[01;37;43m-MCN \033[00;0m \n
-\033[01;35mDashcoin:    \033[01;37;43m-DSH \033[00;0m \n 
-\033[01;35mInfinium-8:  \033[01;37;43m-INF8 \033[00;0m \n
+\033[01;35m Monero:     \033[01;37;43m-XMR \033[00;0m 
+\033[01;35mBytecoin:    \033[01;37;43m-BCN \033[00;0m 
+\033[01;35mQuazarCoin:  \033[01;37;43m-QCN \033[00;0m 
+\033[01;35mDigitalNote: \033[01;37;43m-XDN \033[00;0m 
+\033[01;35mFantomcoin:  \033[01;37;43m-FCN \033[00;0m 
+\033[01;35mMonetaVerde: \033[01;37;43m-MCN \033[00;0m 
+\033[01;35mDashcoin:    \033[01;37;43m-DSH \033[00;0m  
+\033[01;35mInfinium-8:  \033[01;37;43m-INF8 \033[00;0m
 "
 else
 echo " \033[01;32m
