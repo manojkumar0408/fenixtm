@@ -1,6 +1,6 @@
 #!/bin/bash
 #Script de instalaçao automatica Minegate-cli
-#Feito Por FENIX
+#Feito Por FENIXTM
 #    _                               
 #  _|_  ___   __  o \_' _|_   __ __  
 #   |  (__/_ |  ) | / \  |_, |  )  )                                  
