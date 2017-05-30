@@ -5,11 +5,13 @@
 #  _|_  ___   __  o \_' _|_   __ __  
 #   |  (__/_ |  ) | / \  |_, |  )  )                                  
 pacote=$(dpkg --get-selections | grep minergate-cli  ) 
+cores=$(grep "model name" /proc/cpuinfo | wc -l )
 if [ -n "$pacote" ] ; then 
 echo "\n \033[01;32;40m O minergate-cli ja esta instalado \033[01;0m \n"
 echo "\033[01;34m  1: Crei uma conta em \033[01;31;40m https://minergate.com/ \033[00;0m \n"
 echo " \033[01;34m 2: Ultilize o Comando  \033[01;31;40m minergate-cli -user eu@meu-email-minergate.com -xmr 8\033[00;0m \n "
        echo "\033[01;31m -  o valor numero ao final do codigo representa o numero de cores que voce deseja minerar\033[00;0m \n"
+       echo "\033[01;41m O Numero de cores de sua maquina e: \033[01;36m $cores \033[00;0m\n"
 echo "\033[01;34m  3: A moedas que podem ser mineradas  : \n"
 echo "
 \033[01;35m Monero:     \033[01;37;43m-XMR \033[00;0m 
