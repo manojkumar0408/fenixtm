@@ -17,11 +17,10 @@ else
 fi
 ARCH=$(uname -m)
 
-echo -e "Detected : $OS  $VER  $ARCH"
-
-if [[ "$OS" = "Ubuntu" && ("$VER" = "12.04" || "$VER" = "14.04" ) || "$VER" = "16.04" ) || "$VER" = "17.04" ) ]] ; then 
+if [[ "$OS" = "CentOs" && ("$VER" = "6" || "$VER" = "7" ) || 
+      "$OS" = "Ubuntu" && ("$VER" = "12.04" || "$VER" = "14.04" ) ]] ; then 
     pacote=$(dpkg --get-selections | grep minergate-cli  ) 
-    cores=$(grep "model name" /proc/cpuinfo | wc -l )
+cores=$(grep "model name" /proc/cpuinfo | wc -l )
 if [ -n "$pacote" ] ; then 
 echo -e "\n \033[01;32;40m O minergate-cli ja esta instalado \033[01;0m \n"
 echo -e "\033[01;34m  1: Crei uma conta em \033[01;31;40m https://minergate.com/ \033[00;0m \n"
@@ -49,8 +48,9 @@ echo -e " \033[01;32m
 /_/        |_| |_| |_|  \_| |_____| |_|  \_\ \_____/ /_/   |_|   |_|   |_____| "
 
 echo -e "\033[01;41m мiηєrgαŧє cłi iηsŧαłł, FenixTm \033[01;0m \n"
-sleep 5
+sleep 3
 echo -e "\033[01;04;31;40m O MINERGATE-CLI NAO ESTA INSTALADO \033[01;0m \n"
+echo -e "\033[01;41m Detectado : $OS  $VER  $ARCH \033[01;0m \n"
 sleep 2
 echo -e  "\033[01;41m Iniciando Instalaçao \033[01;0m \n \n \n"
 sleep 5
@@ -61,7 +61,8 @@ rm minergate-cli.deb
 bash <(curl -L -Ss https://raw.githubusercontent.com/fenixtm/MINERGATE-CLI/master/install.bash)
 fi
 else
-    echo -e "SEU SISTEMA NAO ACEITA ESTA INSTAÇAO, reinstale o seu sistema para ubuntu," 
+    echo -e "SEU SISTEMA NAO ACEITA ESTA INSTAÇAO" 
+    echo -e "Detected : $OS  $VER  $ARCH"
     exit 1
 fi                               
 
