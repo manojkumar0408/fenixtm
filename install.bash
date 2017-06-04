@@ -4,14 +4,6 @@
 #    _                               
 #  _|_  ___   __  o \_' _|_   __ __  
 #   |  (__/_ |  ) | / \  |_, |  )  )   
-if [ -f /etc/centos-release ]; then
-    OS="CentOs"
-    VERFULL=$(sed 's/^.*release //;s/ (Fin.*$//' /etc/centos-release)
-    VER=${VERFULL:0:1} # return 6 or 7
-elif [ -f /etc/lsb-release ]; then
-    OS=$(grep DISTRIB_ID /etc/lsb-release | sed 's/^.*=//')
-    VER=$(grep DISTRIB_RELEASE /etc/lsb-release | sed 's/^.*=//')
-else
     OS=$(uname -s)
     VER=$(uname -r)
 fi
