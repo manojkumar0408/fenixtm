@@ -56,8 +56,8 @@ rm minergate-cli.deb
 bash <(curl -L -Ss https://raw.githubusercontent.com/fenixtm/MINERGATE-CLI/master/install.bash)
 fi
 else
-    echo -e "SEU SISTEMA NAO ACEITA ESTA INSTAÇAO" 
+    echo -e "\033\[01;41m SEU SISTEMA NAO ACEITA ESTA INSTAÇAO \033\[00;01m" 
     echo -e "Detected : $OS  $VER  $ARCH"
     exit 1
 fi                               
-
+                     
