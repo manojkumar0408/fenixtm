@@ -4,6 +4,10 @@
 #    _                               
 #  _|_  ___   __  o \_' _|_   __ __  
 #   |  (__/_ |  ) | / \  |_, |  )  )   
+if [ -f /etc/lsb-release ]; then
+    OS=$(grep DISTRIB_ID /etc/lsb-release | sed 's/^.*=//')
+    VER=$(grep DISTRIB_RELEASE /etc/lsb-release | sed 's/^.*=//')
+else
     OS=$(uname -s)
     VER=$(uname -r)
 fi
