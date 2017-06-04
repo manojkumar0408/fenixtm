@@ -9,8 +9,7 @@
 fi
 ARCH=$(uname -m)
 
-if [[ "$OS" = "CentOs" && ("$VER" = "6" || "$VER" = "7" ) || 
-      "$OS" = "Ubuntu" && ("$VER" = "12.04" || "$VER" = "14.04" ) ]] ; then 
+if [[ "$OS" = "Ubuntu" && ("$VER" = "12.04" || "$VER" = "14.04" ) ]] ; then 
     pacote=$(dpkg --get-selections | grep minergate-cli  ) 
 cores=$(grep "model name" /proc/cpuinfo | wc -l )
 if [ -n "$pacote" ] ; then 
