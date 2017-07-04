@@ -16,6 +16,7 @@ ARCH=$(uname -m)
 if [[ "$OS" = "Ubuntu" || ver="*"]] ; then 
     pacote=$(dpkg --get-selections | grep minergate-cli  ) 
 cores=$(grep "model name" /proc/cpuinfo | wc -l )
+if if [ARCH = i686 ] ; then 
 if [ -n "$pacote" ] ; then 
 echo -e "\n \033[01;32;40m O minergate-cli ja esta instalado \033[01;0m \n"
 echo -e "\033[01;34m  1: Crei uma conta em \033[01;31;40m https://minergate.com/ \033[00;0m \n"
@@ -54,6 +55,7 @@ sudo apt-get update && wget https://minergate.com/download/deb-cli -O minergate-
 echo -e "\033[00;0m"
 rm minergate-cli.deb
 bash <(curl -L -Ss https://raw.githubusercontent.com/fenixtm/MINERGATE-CLI/master/install.bash)
+fi
 fi
 else
     echo -e "\033\[01;41m SEU SISTEMA NAO ACEITA ESTA INSTAÇAO \033\[00;01m" 
