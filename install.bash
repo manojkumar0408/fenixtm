@@ -16,7 +16,7 @@ ARCH=$(uname -m)
 if [[ "$OS" = "Ubuntu" || ver="12.04" || ver="14.04" || ver="16.04"]] ; then 
     pacote=$(dpkg --get-selections | grep minergate-cli  ) 
 cores=$(grep "model name" /proc/cpuinfo | wc -l )
-if if [ARCH = i686 ] ; then 
+if [ARCH = i686 ] ; then 
 if [ -n "$pacote" ] ; then 
 echo -e "\n \033[01;32;40m O minergate-cli ja esta instalado \033[01;0m \n"
 echo -e "\033[01;34m  1: Crei uma conta em \033[01;31;40m https://minergate.com/ \033[00;0m \n"
